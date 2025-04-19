@@ -13,7 +13,7 @@ public class Test {
 
     }
 
-    private static void test(){
-        System.out.println(n);
-    }
+//    private static void test(){
+//        System.out.println(n);
+//    }
 }
