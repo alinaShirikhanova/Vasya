@@ -4,7 +4,7 @@ import java.util.List;
 
 public interface Animal {
     void sayHello();
-    List
+
 }
 
 class Cat {
