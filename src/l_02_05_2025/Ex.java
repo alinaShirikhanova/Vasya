@@ -4,8 +4,15 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.Scanner;
 
+
+
+enum COFFEE{
+    BIG
+}
+
 public class Ex {
     public static void main(String[] args) throws FileNotFoundException {
+
         divide(10, null);
         Scanner in = new Scanner(System.in);
         String fileName = in.nextLine();
