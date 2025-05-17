@@ -30,4 +30,13 @@ public class Main {
             throw new RuntimeException(e);
         }
     }
+    public static void test(){
+        try {
+            System.out.println(10 / 0);
+        } catch (ArithmeticException ae){
+//            ae.printStackTrace();
+//            StackTraceElement[] stackTrace = ae.getStackTrace();
+//            System.out.println(ae.getMessage());
+        }
+    }
 }
