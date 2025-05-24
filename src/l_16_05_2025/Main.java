@@ -3,6 +3,8 @@ package l_16_05_2025;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class Main {
     public static void main(String[] args) {

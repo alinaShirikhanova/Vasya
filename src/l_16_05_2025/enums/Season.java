@@ -9,7 +9,7 @@ public class Season {
     public static final Season SUMMER = new Season("SUMMER");
     public static final Season AUTUMN = new Season("AUTUMN");
 
-     private Season(String name) {
+    private Season(String name) {
         this.name = name;
     }
 }
